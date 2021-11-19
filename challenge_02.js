@@ -16,3 +16,16 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+let name = prompt("Whats ur Name? ");
+let age  = prompt("Whats ur Age?");
+
+if(age <= 5)
+{
+console.log(name + " trinkt Milch");
+}else if(age >=5 && age <= 12)
+{
+console.log(name + " trinkt Saft");    
+}else if(age >= 12 && age <= 17)
+{
+console.log(name + " trinkt Cola");
+}
