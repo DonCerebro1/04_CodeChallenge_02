@@ -19,7 +19,7 @@ Alter 13-17 // Cola
 let name = prompt("Whats ur Name? ");
 let age  = prompt("Whats ur Age?");
 
-if(age <= 5)
+if(age >= 5)
 {
 console.log(name + " trinkt Milch");
 }else if(age >=5 && age <= 12)
